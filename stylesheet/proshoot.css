@@ -116,7 +116,7 @@ header{
     line-height: 50px;
 }
 .service-heading{
-    
+    z-index: 0;
     position: relative;
 }
 .service-heading::before{
@@ -127,7 +127,22 @@ header{
     position: absolute;
     top: 37px;
     left: 675px;
-    z-index: 0;
+    z-index: -1;
+}
+.service-heading-1::before{
+    position: absolute;
+    left: 660px;
+    top: 37px;
+}
+.service-heading-2::before{
+    position: absolute;
+    left: 620px;
+    top: 37px;
+}
+.service-heading-3::before{
+    position: absolute;
+    left: 640px;
+    top: 37px;
 }
 .service-cards{
     width:350px ;
@@ -337,7 +352,14 @@ header{
 }
 .contact-input{
     width: 320px;
-    
+   border: 1px solid rgb(198, 196, 196);
+}
+.contact-area{
+    padding-left: 30px;
+    border-color: var(--bck-col);
+}
+.cont-btn{
+    margin-left: 150px;
 }
 .blog-card-1{
     width: 349px;
@@ -382,9 +404,69 @@ header{
 .blog-card-3{
     background-image: url(../Pictures/blog-card-3.jpg);
 }
-
-
-
+.blog-part-1{
+  margin-left: 50px;
+}
+.blog-inner-1{
+    padding-left: 20px;
+}
+.blog-part-head{
+    font-weight: 700;
+    margin-left: 10px;
+}
+.blog-part-par{
+    margin-left: 10px;
+}
+.blog-banner-btn{
+    border-radius: 0px;
+    font-size: 13px;
+    padding: 10px 32px;
+    margin-left: 20px;
+}
+/* ------------------ */
+.blog-part-2{
+    width: 349px;
+    height: 2457px;
+    background-color: var(--bck-col);
+}
+.blog-part-input{
+    width: 290px;
+    height: 44px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: red;
+    position: relative;
+}
+.blog-search{
+position: absolute;
+top:0;
+left: 10px;
+}
+.blog-inner-3{
+    text-align: center;
+}
+.blog-inner-4{
+    text-align: center;
+    background-color: red;
+    margin: 20px 30px;
+    font-family: var(--font);
+}
+.inner-head{
+    font-weight: 600;
+    font-family: var(--font);
+    line-height: 1.5em;
+}
+.without-content{
+    width: 287px;
+    height: 239px;
+}
+.blog-content{
+    border-bottom: 1px dotted grey;
+    margin: 10px 30px;
+}
+.blog-content:hover{
+    border-bottom: 1px dotted red;
+}
 
 
 
