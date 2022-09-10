@@ -64,11 +64,16 @@ header{
 }
 .header-heading{
     margin-top: 170px;
-    font-size: 100px;
-    font-weight: 600;
+    font-size: 120px;
+    font-weight: 550;
     line-height: 120px;
     margin-bottom: 40px;
+    letter-spacing: 3px;
+    font-family: $font;
     
+}
+.text-color{
+    color: red;
 }
 .header-paragraph{
     font-size: 15px;
@@ -91,6 +96,9 @@ header{
 }
 .section-content{
     margin-left:20px;
+}
+.home-card-icon{
+    margin-top: -10px;
 }
 .section-1{
     width: 100%;
@@ -150,7 +158,9 @@ header{
     margin:20px;
 }
 .service-cards:hover{
-    box-shadow: 2px 3px 7px rgb(193, 191, 191);
+    box-shadow: 5px 5px 20px rgb(193, 191, 191);
+    transform: translate(5px, -10px);
+    transition: 1s;
 }
 .serv-card{
     margin-left: 80px;
@@ -158,7 +168,7 @@ header{
 .service-card-head{
     font-size: 21px;
     line-height: 27px;
-    font-family: var(--font);
+    font-family: $font;
 }
 .home-images{
     margin-left: 150px;
@@ -186,6 +196,15 @@ header{
 .main-image:hover img{
     transform: scale(1.2);
 } */
+.image-zoom{
+    overflow: hidden;
+}
+.image-zoom img{
+          transition: all 1.3s ease;
+}
+.image-zoom:hover img{
+    transform: scale(1.2);
+}
 .card-image{
     width: 300px;
     height: 160px;
@@ -221,7 +240,7 @@ header{
 .packages{
     width: 100%;
     height: 1038px;
-    background-color: var(--bck-col);
+    background-color:$bck-col;
 }
 .pricing-card{
     width: 349px;
@@ -229,7 +248,7 @@ header{
     margin:150px 20px 0px;
 }
 .package-head{
-    font-family: var(--font);
+    font-family: $font;
     text-align: center;
 }
 .package-para{
@@ -245,7 +264,7 @@ header{
 .package-inner-card{
     width: 309px;
     height: 326px;
-    background-color: var(--bck-col);
+    background-color:$bck-col;
     margin-left: -28px;
 }
 .home-btn-2{
@@ -284,7 +303,7 @@ header{
 .footer-head{
     margin-top: 150px;
     font-size: 18px;
-    font-family: var(--font);
+    font-family:$font;
 }
 .footer-icon{
     font-size:20px;
@@ -356,7 +375,7 @@ header{
 }
 .contact-area{
     padding-left: 30px;
-    border-color: var(--bck-col);
+    border-color: $bck-col;
 }
 .cont-btn{
     margin-left: 150px;
@@ -381,7 +400,7 @@ header{
 .blog-card-head{
     text-align: center;
     font-size: 18px;
-    font-family: var(--font);
+    font-family:$font;
     position:relative;
 
 }
@@ -421,13 +440,14 @@ header{
     border-radius: 0px;
     font-size: 13px;
     padding: 10px 32px;
+    border-color: rgb(197, 192, 192);
     margin-left: 20px;
 }
 /* ------------------ */
 .blog-part-2{
     width: 349px;
     height:auto;
-    background-color: var(--bck-col);
+    background-color:$bck-col;
 }
 .blog-part-input{
     width: 290px;
@@ -449,11 +469,11 @@ left: 10px;
     text-align: center;
     background-color: red;
     margin: 20px 30px;
-    font-family: var(--font);
+    font-family: $font;
 }
 .inner-head{
     font-weight: 600;
-    font-family: var(--font);
+    font-family: $font;
     line-height: 1.5em;
 }
 .without-content{
