@@ -414,7 +414,7 @@ header{
 /* ------------------ */
 .blog-part-2{
     width: 349px;
-    height: 2457px;
+    height:auto;
     background-color: var(--bck-col);
 }
 .blog-part-input{
@@ -447,16 +447,31 @@ left: 10px;
 .without-content{
     width: 287px;
     height: 239px;
+    margin: 50px 0;
 }
 .blog-content{
     border-bottom: 1px dotted grey;
-    margin: 10px 30px;
+    margin: 20px 30px;
 }
 .blog-content:hover{
     border-bottom: 1px dotted red;
 }
-
-
+.blog-input-group{
+    width: 320px;
+    padding: 10px;
+    border-radius: 0px;
+}
+.blog-last-button{
+    border-radius: 0px;
+    font-size: 14px;
+    
+}
+.blog-last-btn{
+    margin-left: 20px;
+}
+.blog-btn{
+    padding-bottom: 50px;
+}
 
 
 
