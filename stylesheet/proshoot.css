@@ -7,7 +7,8 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: 1.625em; }
+  line-height: 1.625em;
+  overflow-x: hidden; }
 
 nav {
   width: 100%;
@@ -42,16 +43,21 @@ header {
   transform: rotate(90deg); }
 
 .header-icon:hover {
-  color: red; }
+  color: red !important; }
 
 .header-content a {
   text-decoration: none; }
 
 .home-banner-btn {
   padding: 16px 32px;
-  border-radius: 0px;
-  font-size: 15px;
-  font-family: "Oswald", sans-serif; }
+  border-radius: 0px; }
+
+.home-banner-btn:hover {
+  background-color: red;
+  color: white; }
+
+.link:hover {
+  color: red; }
 
 .header-cont {
   margin-left: 80px; }
@@ -125,19 +131,24 @@ header {
   height: 8px;
   background-color: red;
   position: absolute;
-  top: 77px;
-  left: 675px;
-  z-index: -1; }
+  left: 38%;
+  top: 74%;
+  bottom: 0;
+  right: 0; }
 
 .service-heading-1::before {
   position: absolute;
-  left: 660px;
-  top: 37px; }
+  left: 38%;
+  top: 74%;
+  bottom: 0;
+  right: 0; }
 
 .service-heading-2::before {
   position: absolute;
-  left: 620px;
-  top: 37px; }
+  left: 38%;
+  top: 74%;
+  bottom: 0;
+  right: 0; }
 
 .service-heading-3::before {
   position: absolute;
@@ -430,8 +441,8 @@ header {
   margin-left: 20px; }
 
 .blog-banner-btn:hover {
-  color: white;
-  background-color: red; }
+  background-color: red;
+  color: white; }
 
 /* ------------------ */
 .blog-part-2 {
@@ -491,8 +502,8 @@ header {
   margin-left: 20px; }
 
 .blog-last-button:hover {
-  color: white;
-  background-color: red; }
+  background-color: red;
+  color: white; }
 
 .blog-btn {
   padding-bottom: 50px; }

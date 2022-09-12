@@ -8,6 +8,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.625em;
+    overflow-x: hidden;
 }
 
 $bck-col:#f8f9fa;
@@ -137,19 +138,24 @@ header{
     height: 8px;
     background-color: red;
     position: absolute;
-    top: 37px;
-    left: 675px;
-    z-index: -1;
+    left: 38%;
+    top: 74%;
+    bottom: 0;
+    right: 0;
 }
 .service-heading-1::before{
     position: absolute;
-    left: 660px;
-    top: 37px;
+    left: 38%;
+    top: 74%;
+    bottom: 0;
+    right: 0
 }
 .service-heading-2::before{
     position: absolute;
-    left: 620px;
-    top: 37px;
+    left: 38%;
+    top: 74%;
+    bottom: 0;
+    right: 0
 }
 .service-heading-3::before{
     position: absolute;
